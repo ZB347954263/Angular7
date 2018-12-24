@@ -1,0 +1,407 @@
+.easyui-icon{
+	font-size: 14px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	background-size: contain !important;
+}
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.icon-more{
+	background:url('icons/more.png') no-repeat center center;
+}
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+
+/****菜单图标****/
+
+.icon-down{
+	background:url('icons/down.png') no-repeat center center;
+}
+.icon-desktop_mac{
+	background:url('icons/desktop_mac.png') no-repeat center center;
+}
+.icon-list{
+	background:url('icons/list.png') no-repeat center center;
+}
+.icon-query-analyze1{
+	background:url('icons/query-analyze.png') no-repeat center center;
+}
+.icon-setting{
+	background:url('icons/setting.png') no-repeat center center;
+}
+.icon-system-manage{
+	background:url('icons/system_manage.png') no-repeat center center;
+}
+.icon-user-manage{
+	background:url('icons/user_manage.png') no-repeat center center;
+}
+.icon-people-manage{
+	background:url('icons/people_manage.png') no-repeat center center;
+}
+.icon-organization{
+	background:url('icons/organization.png') no-repeat center center;
+}
+.icon-range-manage{
+	background:url('icons/range_manage.png') no-repeat center center;
+}
+.icon-resource-manage{
+	background:url('icons/resource_manage.png') no-repeat center center;
+}
+.icon-role-manage{
+	background:url('icons/role_manage.png') no-repeat center center;
+}
+.icon-client-manage{
+	background:url('icons/client_manage.png') no-repeat center center;
+}
+.icon-data-dictionary{
+	background:url('icons/data_dictionary.png') no-repeat center center;
+}
+.icon-app-manage{
+	background:url('icons/APP_manage.png') no-repeat center center;
+}
+.icon-menu-manage{
+	background:url('icons/menu_manage.png') no-repeat center center;
+}
+.icon-log-manage{
+	background:url('icons/log_manage.png') no-repeat center center;
+}
+.icon-home-page{
+	background:url('icons/home_page.png') no-repeat center center;
+}
+.icon-map-manage{
+	background:url('icons/map_manage.png') no-repeat center center;
+}
+.icon-opinion-manage{
+	background:url('icons/opinion_manage.png') no-repeat center center;
+}
+.icon-river-manage{
+	background:url('icons/river_manage.png') no-repeat center center;
+}
+.icon-seg-manage{
+	background:url('icons/seg_manage.png') no-repeat center center;
+}
+.icon-reservoir-manage{
+	background:url('icons/reservoir_manage.png') no-repeat center center;
+}
+.icon-water-manage{
+	background:url('icons/water_manage.png') no-repeat center center;
+}
+.icon-intb-manage{
+	background:url('icons/intb_manage.png') no-repeat center center;
+}
+.icon-stb-manage{
+	background:url('icons/stb_manage.png') no-repeat center center;
+}
+.icon-segps-manage{
+	background:url('icons/segps_manage.png') no-repeat center center;
+}
+.icon-industry-manage{
+	background:url('icons/industry_manage.png') no-repeat center center;
+}
+.icon-sewage-treatment-plant{
+	background:url('icons/sewage_treatment_plant.png') no-repeat center center;
+}
+.icon-water-pollute-prevent{
+	background:url('icons/water_pollute_prevent.png') no-repeat center center;
+}
+.icon-water-coastline{
+	background:url('icons/water_coastline.png') no-repeat center center;
+}
+.icon-individual-manage{
+	background:url('icons/individual_manage.png') no-repeat center center;
+}
+.icon-sewage-manage{
+	background:url('icons/sewage_manage.png') no-repeat center center;
+}
+.icon-sewage-plant-manage{
+	background:url('icons/swage_plant_manage.png') no-repeat center center;
+}
+.icon-drink-water-manage{
+	background:url('icons/drink_water_manage.png') no-repeat center center;
+}
+.icon-animal-husband-manage{
+	background:url('icons/animal_husband_manage.png') no-repeat center center;
+}
+.icon-aquatic-husband-manage{
+	background:url('icons/aquatic_husband_manage.png') no-repeat center center;
+}
+.icon-live-pollute-manage{
+	background:url('icons/live_pollute_manage.png') no-repeat center center;
+}
+.icon-seize-reservoir-manage{
+	background:url('icons/seize_reservoir_manage.png') no-repeat center center;
+}
+.icon-temporary-manage{
+	background:url('icons/temporary_manage.png') no-repeat center center;
+}
+.icon-boundary-manage{
+	background:url('icons/boundary_manage.png') no-repeat center center;
+}
+.icon-parts-manage{
+	background:url('icons/parts_manage.png') no-repeat center center;
+}
+.icon-event-completion-rate{
+	background:url('icons/event_completion_rate.png') no-repeat center center;
+}
+.icon-event-completion-rate-black{
+	background:url('icons/event_completion_rate_black.png') no-repeat center center;
+}
+.icon-river-completion-rate{
+	background:url('icons/river_completion_rate.png') no-repeat center center;
+}
+.icon-water-completion-rate{
+	background:url('icons/water_completion_rate.png') no-repeat center center;
+}
+.icon-river-completion-rate-black{
+	background:url('icons/river_completion_rate_black.png') no-repeat center center;
+}
+.icon-water-completion-rate-black{
+	background:url('icons/water_completion_rate_black.png') no-repeat center center;
+}
+.icon-message{
+	background:url('icons/message.png') no-repeat center center;
+}
+
+/**巡河管理图标**/
+.icon-river-list-manage{
+	background:url('icons/river_list_manage.png') no-repeat center center;
+}
+.icon-wr-rv-event-tp-item{
+	background:url('icons/wr_rv_event_tp_item.png') no-repeat center center;
+}
+.icon-wr-rv-line{
+	background:url('icons/wr_rv_line.png') no-repeat center center;
+}
+.icon-wr-rv-log{
+	background:url('icons/wr_rv_log.png') no-repeat center center;
+}
+.icon-wr-rv-rec{
+	background:url('icons/wr_rv_rec.png') no-repeat center center;
+}
+.icon-wr-rv-rec-query{
+	background:url('icons/wr_rv_rec_query.png') no-repeat center center;
+}
+.icon-wr-rv-task{
+	background:url('icons/wr_rv_task.png') no-repeat center center;
+}
+.icon-water-resource-protect{
+	background:url('icons/water_resource_protect.png') no-repeat center center;
+}
+
+/**考核管理图标**/
+.icon-check-manage{
+	background:url('icons/check_manage.png') no-repeat center center;
+}
+.icon-chk-check-manage{
+	background:url('icons/chk_check_manage.png') no-repeat center center;
+}
+.icon-chk-mytask-manage{
+	background:url('icons/chk_mytask_manage.png') no-repeat center center;
+}
+.icon-chk-result-manage{
+	background:url('icons/chk_result_manage.png') no-repeat center center;
+}
+.icon-chk-standard-manage{
+	background:url('icons/chk_standard_manage.png') no-repeat center center;
+}
+.icon-chk-task-manage{
+	background:url('icons/chk_task_manage.png') no-repeat center center;
+}
+
+/***事件处理图标**/
+.icon-event-handle-manage{
+	background:url('icons/event_handle_manage.png') no-repeat center center;
+}
+.icon-finish-task-manage{
+	background:url('icons/finish_task_manage.png') no-repeat center center;
+}
+.icon-mytask-manage{
+	background:url('icons/mytask_manage.png') no-repeat center center;
+}
+.icon-query-task-manage{
+	background:url('icons/query_task_manage.png') no-repeat center center;
+}
+.icon-rv-log-task-manage{
+	background:url('icons/rv_log_task_manage.png') no-repeat center center;
+}
+.icon-task-manage{
+	background:url('icons/task_manage.png') no-repeat center center;
+}
+
+/**水生态&执法监督**/
+.icon-enforcement-supervision{
+	background:url('icons/enforcement_supervision.png') no-repeat center center;
+}
+.icon-water-ecology{
+	background:url('icons/water_ecology.png') no-repeat center center;
+}
+.icon-wr-stb-manage{
+	background:url('icons/wr_stb_manage.png') no-repeat center center;
+}
+
+/**查询统计**/
+.icon-query-analyze {
+	background:url('icons/query_analyze.png') no-repeat center center;
+}
+
+/**新闻信息**/
+.icon-weixin-publicity {
+	background:url('icons/weixin_publicity.png') no-repeat center center;
+}
+.icon-weixin-newsinfo {
+	background:url('icons/weixin_newsinfo.png') no-repeat center center;
+}
+.icon-weixin-activity {
+	background:url('icons/weixin_activity.png') no-repeat center center;
+}
+.icon-weixin-culture {
+	background:url('icons/weixin_culture.png') no-repeat center center;
+}
+.icon-weixin-dynamic {
+	background:url('icons/weixin_dynamic.png') no-repeat center center;
+}
+.icon-weixin-fruits {
+	background:url('icons/weixin_fruits.png') no-repeat center center;
+}
+.icon-weixin-generalize {
+	background:url('icons/weixin_generalize.png') no-repeat center center;
+}
+.icon-weixin-rules {
+	background:url('icons/weixin_rules.png') no-repeat center center;
+}
+.icon-weixin-snapshot {
+	background:url('icons/weixin_snapshot.png') no-repeat center center;
+}
+
+/**水资源保护**/
+.icon-drink-water-resource {
+	background:url('icons/drink_water_resource.png') no-repeat center center;
+}
+.icon-keynote-project {
+	background:url('icons/keynote_project.png') no-repeat center center;
+}
+.icon-plan-analyze {
+	background:url('icons/plan_analyze.png') no-repeat center center;
+}
+.icon-problem-analyze {
+	background:url('icons/problem_analyze.png') no-repeat center center;
+}
+.icon-target-analyze {
+	background:url('icons/target_analyze.png') no-repeat center center;
+}
+.icon-negative-analyze {
+	background:url('icons/negative_analyze.png') no-repeat center center;
+}
+.icon-water-resource-protect {
+	background:url('icons/water_resource_protect.png') no-repeat center center;
+}
+.icon-wr-intb {
+	background:url('icons/wr_intb.png') no-repeat center center;
+}
+.icon-delete {
+	background:url('icons/delete.png') no-repeat center center;
+}
+
+
+
+
+
+
+

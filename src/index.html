@@ -1,14 +1,52 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Angular7Web</title>
-  <base href="/">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Angular7-web</title>
+        <base href="/">
+        <!-- 缓存相关 开始-->
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+         <!-- 缓存相关 结束-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+        <link id="layout-css" rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link id="theme-css" rel="stylesheet" type="text/css" href="assets/theme/theme-bluegrey.css">
+        <link id="layout-css" rel="stylesheet" type="text/css" href="assets/layout/css/layout-moody.css">
+        <link id="layout-css" rel="stylesheet" type="text/css" href="assets/css/global.css">
+        <link id="layout-css" rel="stylesheet" type="text/css" href="assets/icon.css">
+        <link id="layout-css" rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <!--[if lte IE 9]>
+        <p class="browserupgrade" style="text-align: center;">你的浏览器版本太低，请<a href="http://browsehappy.com/">升级到最新版本</a>后重试。</p>
+        <p class="browserupgrade" style="text-align: center;">或者使用360安全浏览器，360极速浏览器高速模式访问。</p>
+    <![endif]-->
+    <script src="assets/SuperMap_Basic-8.0.1-13225.js"></script>
+     <!--<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/> -->
+    <!-- <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.4&key=d1577d82d6741eb3485a2c468a737c09"></script>
+    <script type="text/javascript" src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script> -->
+     <!-- <script src="http://127.0.0.1:8000/CLodopfuncs.js"></script> -->
+    <script>
+        // load shim for IE
+        if (window.navigator.userAgent.indexOf('Trident/') > 0) {
+            var script = document.createElement('script');
+            script.src = 'core-js-shim.min.js';
+            script.type = 'text/javascript';
+            document.getElementsByTagName('head')[0].appendChild(script)
+        }
+    </script>
+    </head>
+    <body>
+        <app-root>
+            <div class="splash-screen">
+                <div class="splash-loader-container">
+                    <svg class="splash-loader" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                       <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                    </svg>
+                </div>
+            </div>
+        </app-root>
+    </body>
 </html>

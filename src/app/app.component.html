@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
@@ -18,4 +18,25 @@
   </li>
 </ul>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+
+<div class="layout-wrapper" (click)="onWrapperClick()"
+    [ngClass]="{'layout-wrapper-static': layoutStatic,
+                'layout-wrapper-active': mobileMenuActive}">
+    
+    <app-menu></app-menu>
+
+    <div class="layout-main">
+        <app-topbar></app-topbar>
+        
+        <app-breadcrumb></app-breadcrumb>
+
+        <div class="layout-content">
+            <router-outlet></router-outlet>
+        </div>
+        
+        <app-footer></app-footer>
+        <div class="layout-main-mask" *ngIf="mobileMenuActive"></div>
+    </div>
+
+</div>
